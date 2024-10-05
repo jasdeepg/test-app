@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Add a .env file
+
+```
+NEXT_PUBLIC_SCHEMATIC_COMPONENT_ID=""
+NEXT_PUBLIC_SCHEMATIC_PUBLISHABLE_KEY=""
+SCHEMATIC_SECRET_KEY=""
+```
+
+Run the development server:
 
 ```bash
 npm run dev
