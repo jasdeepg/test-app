@@ -9,13 +9,13 @@ export async function GET(_request: NextRequest) {
   }
 
   try {
-    const { orgId } = "org_2lf9fYVOxDJ0fWXpcONdxJ37g8O";
+    const orgId = "org_2lf9fYVOxDJ0fWXpcONdxJ37g8O";
     const schematicClient = new SchematicClient({ apiKey });
 
     const resp = await schematicClient.accesstokens.issueTemporaryAccessToken({
       resourceType: "company",
       lookup: {
-        clerkId: orgId,
+        clerkid: orgId,
       },
     });
 
